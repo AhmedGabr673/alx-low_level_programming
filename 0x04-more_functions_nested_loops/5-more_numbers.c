@@ -11,7 +11,7 @@ int n = 0;
 int count = 0;
 for (count = 0; count < 10; count++)
 {
-for (n = '0'; n <= '14'; n++)
+for (n = 0; n <= 14; n++)
 {
 _putchar (n);
 }
