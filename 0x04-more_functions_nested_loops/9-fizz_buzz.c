@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - main fun
- * Return: zero
+ * main - print 1 to 100,
+ * multiples of 3 with Fizz,
+ * multiples of 5 with Buzz
+ * and multiple of both 3 and 5 with FizzBuzz
+ * Return: 0 on success
  */
 
 int main(void)
