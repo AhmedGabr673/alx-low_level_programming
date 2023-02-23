@@ -1,11 +1,15 @@
 // #include "main.h"
 #include <stdio.h>
+void print_diagonal(int n);
 /**
  * print_diagonal - draws a diagonal line on the terminal.
  * @n : integer
  * Return: void
  */
 
+int main(){
+    print_diagonal(10);
+}
 void print_diagonal(int n)
 {
 int lines;
