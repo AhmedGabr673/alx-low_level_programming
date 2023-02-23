@@ -20,6 +20,6 @@ for (lines = 0; lines < n; n++)
 // _putchar ('\\');
 // _putchar ('\n');
 printf("\\");
-printf("\n")
+printf("\n");
 }
 }
