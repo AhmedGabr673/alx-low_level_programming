@@ -22,7 +22,7 @@ s++;
 j=len-1;
 while (i != j)
 {
-s[i] = temp;
+temp = s[i];
 s[i] = s[j];
 s[j]= temp;
 i++;
