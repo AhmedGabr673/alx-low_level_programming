@@ -18,7 +18,7 @@ s++;
 s--;
 for (i = 0; i < len; i++)
 {
-*tempString = *s;
+*tempString = s;
 s--;
 tempString++;
 }
