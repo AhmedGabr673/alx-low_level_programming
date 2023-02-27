@@ -12,7 +12,7 @@ int len = 0;
 
 while (*s != '\0')
 {
-len++
+len++;
 s++;
 }
 int i = 0;
