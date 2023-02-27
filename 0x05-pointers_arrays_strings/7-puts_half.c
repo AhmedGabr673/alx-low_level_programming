@@ -7,15 +7,15 @@
 
 int _strlen(char *s)
 {
-	int len = 0;
+int len = 0;
 
-	while (*s != '\0')
-	{
-		len++;
-		s++;
-	}
+while (*s != '\0')
+{
+len++;
+s++;
+}
 
-	return (len);
+return (len);
 }
 
 /**
@@ -27,20 +27,18 @@ void puts_half(char *str)
 {
 int index;
 int len = _strlen(str);
-
 if(len % 2 == 0)
 {
-    index = (len / 2) ;
+index = (len / 2) ;
 }
 else if (len % 2 != 0)
 {
-    index = (len /2) + 1;
+index = (len /2) + 1;
 }
-
 while (index < len)
 {
-		_putchar(*(str + index));
-		index++;
-	}
-	_putchar('\n');
+_putchar(*(str + index));
+index++;
+}
+_putchar('\n');
 }
