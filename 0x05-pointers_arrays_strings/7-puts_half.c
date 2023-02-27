@@ -27,13 +27,13 @@ void puts_half(char *str)
 {
 int index;
 int len = _strlen(str);
-if(len % 2 == 0)
+if (len % 2 == 0)
 {
-index = (len / 2) ;
+index = (len / 2);
 }
 else if (len % 2 != 0)
 {
-index = (len /2) + 1;
+index = (len / 2) + 1;
 }
 while (index < len)
 {
